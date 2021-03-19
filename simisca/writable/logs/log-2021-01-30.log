@@ -1,0 +1,10 @@
+CRITICAL - 2021-01-30 07:22:05 --> Undefined variable: baseURL
+#0 C:\xampp\htdocs\db\simisca\app\Views\landingpage\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('landingpage/ind...', Array, true)
+#3 C:\xampp\htdocs\db\simisca\app\Controllers\Landingpage.php(11): view('landingpage/ind...')
+#4 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LandingPage->index()
+#5 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPage))
+#6 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\db\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

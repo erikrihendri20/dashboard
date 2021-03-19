@@ -1,0 +1,95 @@
+CRITICAL - 2021-02-16 07:34:02 --> Undefined offset: -1
+#0 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getKabupatenKota()
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 08:18:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '11%'' at line 3
+#0 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\db\simisca\app\Models\Sampel_satker_model.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(25): App\Models\Sampel_satker_model->getSatker('11')
+#6 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getKabupatenKota()
+#7 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#8 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-16 08:24:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3
+#0 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\db\simisca\app\Models\Sampel_satker_model.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(25): App\Models\Sampel_satker_model->getSatker('11')
+#6 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getKabupatenKota()
+#7 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#8 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-16 11:34:49 --> Column 'kodesatker' in where clause is ambiguous
+#0 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `satker`...')
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `satker`...')
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `satker`...')
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `satker`...', Array, false)
+#4 C:\xampp\htdocs\db\simisca\app\Models\Sampel_satker_model.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(43): App\Models\Sampel_satker_model->getSatker()
+#6 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->visualisasi()
+#7 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#8 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-16 12:44:59 --> Undefined index: kabupten
+#0 C:\xampp\htdocs\db\simisca\app\Models\Satker_model.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(36): App\Models\Satker_model->getSpiderChart(Array)
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getSpiderChart()
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#4 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-16 12:45:03 --> Undefined index: kabupten
+#0 C:\xampp\htdocs\db\simisca\app\Models\Satker_model.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(36): App\Models\Satker_model->getSpiderChart(Array)
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getSpiderChart()
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#4 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-16 12:46:16 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\db\simisca\app\Models\Satker_model.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(36): App\Models\Satker_model->getSpiderChart(Array)
+#6 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getSpiderChart()
+#7 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#8 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-16 12:47:08 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\db\simisca\app\Models\Satker_model.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(36): App\Models\Satker_model->getSpiderChart(Array)
+#6 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getSpiderChart()
+#7 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#8 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-16 12:52:06 --> Column 'kodesatker' in where clause is ambiguous
+#0 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `namasat...')
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namasat...')
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namasat...')
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `namasat...', Array, false)
+#4 C:\xampp\htdocs\db\simisca\app\Models\Satker_model.php(70): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(36): App\Models\Satker_model->getSpiderChart(Array)
+#6 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getSpiderChart()
+#7 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#8 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

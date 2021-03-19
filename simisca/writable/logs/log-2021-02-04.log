@@ -1,0 +1,25 @@
+CRITICAL - 2021-02-04 00:17:32 --> Call to undefined method App\Models\Survei_model::monitor
+#0 C:\xampp\htdocs\db\simisca\app\Controllers\Dashboard.php(41): CodeIgniter\Model->__call('monitor', Array)
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->monitor()
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\db\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 00:17:59 --> Unknown column 'satker.kodesatker' in 'where clause'
+#0 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\db\simisca\app\Models\Survei_model.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\db\simisca\app\Controllers\Dashboard.php(41): App\Models\Survei_model->monitorSatker()
+#6 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->monitor()
+#7 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\db\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-04 12:17:28 --> Too few arguments to function App\Controllers\Visualisasi::getTabel(), 0 passed in C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getTabel()
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#2 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\db\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

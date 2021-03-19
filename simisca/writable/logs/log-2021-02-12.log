@@ -1,0 +1,18 @@
+CRITICAL - 2021-02-12 09:30:52 --> Invalid file: visualisasi/visualisasi.php
+#0 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualisasi/vis...')
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('visualisasi/vis...', Array, true)
+#2 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(28): view('visualisasi/vis...', Array)
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->visualisasi()
+#4 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#5 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-12 09:31:13 --> Invalid file: visualisasi/visualisasi.php
+#0 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualisasi/vis...')
+#1 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('visualisasi/vis...', Array, true)
+#2 C:\xampp\htdocs\db\simisca\app\Controllers\Visualisasi.php(28): view('visualisasi/vis...', Array)
+#3 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->visualisasi()
+#4 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#5 C:\xampp\htdocs\db\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\db\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,187 @@
+CRITICAL - 2021-01-28 10:51:15 --> Class 'App\Controllers\PCA' not found
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pcs->index()
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pcs))
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-28 10:52:35 --> Class 'App\Controllers\PCA' not found
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pcs->index()
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pcs))
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-28 10:54:10 --> Class 'Phpml\DimensionReduction\PCA' not found
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pcs->index()
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pcs))
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-28 10:54:23 --> Class 'App\Controllers\Phpml\DimensionReduction\PCA' not found
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pcs->index()
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pcs))
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-28 10:54:32 --> Class 'App\Controllers\phpml\DimensionReduction\PCA' not found
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pcs->index()
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pcs))
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-28 10:54:37 --> Class 'App\Controllers\Phpml\DimensionReduction\PCA' not found
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pcs->index()
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pcs))
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-28 10:54:40 --> Class 'App\Controllers\Phpml\DimensionReduction\PCA' not found
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pcs->index()
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pcs))
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-28 10:56:16 --> Use of undefined constant PCA - assumed 'PCA' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Pcs.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pcs->index()
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pcs))
+#3 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-28 10:56:26 --> Call to undefined function App\Controllers\PCA()
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pcs->index()
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pcs))
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-28 11:03:26 --> Class 'app\ThirdParty\phpml\src\Phpml\DimensionReduction\PCA' not found
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pcs->index()
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pcs))
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-28 19:39:13 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('visualisasi/get...')
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('visualisasi/get...')
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-28 19:53:58 --> Undefined index: created_at
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Models\Satker_model.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(24): App\Models\Satker_model->filter(2021)
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getdata()
+#3 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-01-28 19:54:35 --> Trying to get property 'created_at' of non-object
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Models\Satker_model.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(24): App\Models\Satker_model->filter(2021)
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getdata()
+#3 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-01-28 19:55:47 --> Trying to get property 'kodesatker' of non-object
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Models\Satker_model.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(24): App\Models\Satker_model->filter(2021)
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getdata()
+#3 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-01-28 19:55:55 --> Undefined index: kodesatker
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Models\Satker_model.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(24): App\Models\Satker_model->filter(2021)
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getdata()
+#3 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-01-28 19:56:40 --> Trying to get property 'stdClass' of non-object
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Models\Satker_model.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(24): App\Models\Satker_model->filter(2021)
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getdata()
+#3 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-01-28 19:56:43 --> Trying to get property 'stdClass' of non-object
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Models\Satker_model.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(24): App\Models\Satker_model->filter(2021)
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->getdata()
+#3 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-01-28 20:36:11 --> Undefined variable: dimesi
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Views\visualisasi\tabel.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('visualisasi/tab...', Array, true)
+#3 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(32): view('visualisasi/tab...', Array)
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->tabel()
+#5 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#6 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-28 20:36:34 --> Undefined variable: dimesi
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Views\visualisasi\tabel.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('visualisasi/tab...', Array, true)
+#3 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(32): view('visualisasi/tab...', Array)
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->tabel()
+#5 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#6 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-28 20:42:10 --> Undefined index: kodesatker
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Views\visualisasi\tabel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('visualisasi/tab...', Array, true)
+#3 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(32): view('visualisasi/tab...', Array)
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->tabel()
+#5 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#6 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-28 20:42:47 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('visualisasi/tab...', Array, true)
+#2 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(32): view('visualisasi/tab...', Array)
+#3 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->tabel()
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#5 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-01-28 20:46:36 --> Trying to get property 'kodesatker' of non-object
+#0 C:\xampp\htdocs\tingkat3\simisca\app\Views\visualisasi\tabel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('visualisasi/tab...', Array, true)
+#3 C:\xampp\htdocs\tingkat3\simisca\app\Controllers\Visualisasi.php(32): view('visualisasi/tab...', Array)
+#4 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Visualisasi->tabel()
+#5 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visualisasi))
+#6 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tingkat3\simisca\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tingkat3\simisca\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
